@@ -1,0 +1,132 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Yaswanth Reddy's personal portfolio and projects.">
+  <title>Yaswanth Reddy | Portfolio</title>
+  <style>
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #0b1020;
+      color: #edf2ff;
+      line-height: 1.7;
+    }
+    header {
+      padding: 18px 7%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 12px;
+      flex-wrap: wrap;
+      border-bottom: 1px solid #29324b;
+    }
+    header strong { color: #7dd3fc; }
+    nav { display: flex; gap: 14px; flex-wrap: wrap; }
+    a { color: #7dd3fc; text-decoration: none; }
+    nav a { font-size: 14px; }
+    main { max-width: 900px; margin: auto; padding: 28px 6%; }
+    .hero { padding: 55px 0 45px; }
+    .tag { color: #7dd3fc; font-weight: bold; }
+    h1 { font-size: clamp(36px, 9vw, 60px); line-height: 1.15; margin: 12px 0; }
+    h2 { margin-top: 38px; }
+    .muted { color: #b5bfd6; }
+    .button {
+      display: inline-block; padding: 10px 17px;
+      margin: 8px 8px 0 0; border-radius: 9px;
+      background: #7dd3fc; color: #0b1020; font-weight: bold;
+    }
+    .card {
+      background: #141c30; border: 1px solid #29324b;
+      padding: 19px; margin: 14px 0; border-radius: 14px;
+    }
+    .skills { display: flex; flex-wrap: wrap; gap: 9px; }
+    .skills span {
+      border: 1px solid #34415e; padding: 5px 11px;
+      border-radius: 20px; font-size: 14px;
+    }
+    footer { text-align: center; padding: 25px; color: #b5bfd6; }
+  </style>
+</head>
+<body>
+  <header>
+    <strong>YR. Portfolio</strong>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <p class="tag">WELCOME TO MY PORTFOLIO</p>
+      <h1>Hi, I'm<br>Yaswanth Reddy.</h1>
+      <p class="muted">
+        B.Sc. Electronics student, learning technology
+        and building projects for my future career.
+      </p>
+      <a class="button" href="#projects">Explore my work</a>
+      <a class="button" href="#contact">Contact me</a>
+    </section>
+
+    <section id="about">
+      <h2>About Me</h2>
+      <div class="card">
+        I am a final-year B.Sc. Electronics student from
+        Andhra Pradesh. I am interested in technology,
+        programming, and practical projects. I am always
+        learning new skills and looking for opportunities
+        to grow professionally.
+      </div>
+    </section>
+
+    <section id="skills">
+      <h2>My Skills</h2>
+      <div class="card skills">
+        <span>HTML</span>
+        <span>CSS</span>
+        <span>Java</span>
+        <span>Embedded Systems</span>
+        <span>Problem Solving</span>
+      </div>
+      <p class="muted">Keep only the skills you can confidently discuss.</p>
+    </section>
+
+    <section id="projects">
+      <h2>My Projects</h2>
+      <div class="card">
+        <h3>Embedded Systems Project</h3>
+        <p class="muted">
+          A practical project completed during my embedded
+          systems learning and internship.
+        </p>
+      </div>
+      <div class="card">
+        <h3>Personal Portfolio Website</h3>
+        <p class="muted">
+          This website, created using HTML and CSS and
+          published with GitHub Pages.
+        </p>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2>Contact Me</h2>
+      <div class="card">
+        <p>Interested in connecting about projects or opportunities?</p>
+        <p>GitHub: <a href="https://github.com/">My GitHub profile</a></p>
+        <p>Email: Add your professional email here.</p>
+        <p>Instagram: Add your profile link here if you want.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer>© 2026 Yaswanth Reddy · Personal Portfolio</footer>
+</body>
+</html>
